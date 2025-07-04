@@ -1,43 +1,42 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+header {
+  padding: 2rem;
   max-width: 1440px;
   width: 100%;
   margin-inline: auto;
-  font-family: "Red Hat Display", sans-serif;
 }
-header{
-  padding: 2rem;
-}
-header img{
+header img {
   margin-inline: auto;
   display: block;
 }
 
-.banner{
- display: grid;
- grid-template-columns: repeat(3,minmax(200px,1fr));
+.banner {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 1fr) 1fr;
   gap: 1rem;
   text-align: center;
   justify-content: center;
+  place-items: center;
 }
-.banner img{
-
+.banner img {
   width: 100%;
 }
-.banner img:last-child{
+.banner img:last-child {
   align-self: flex-end;
 }
-.banner__middle{
-
+.banner__middle {
   display: flex;
   flex-direction: column;
   gap: 1.3rem;
   flex: 0.3;
 }
-.banner__middle h1{
-  font-size: 2.5rem
+.banner__middle h1 {
+  font-size: 2.5rem;
 }
