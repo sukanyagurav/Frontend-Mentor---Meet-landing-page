@@ -3,6 +3,15 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --heading-color: #28283d;
+  --primary-color: #4d96a9;
+  --button-secondary: #855fb1;
+  --button-text-version: #8fe3f9;
+  --text-color: #87879d;
+  --button-primary-hover: #71c0d4;
+  --button-secondary-hover: #b18bdd;
+}
 body {
   font-family: 'Red Hat Display', sans-serif;
 }
@@ -39,4 +48,23 @@ header img {
 }
 .banner__middle h1 {
   font-size: 2.5rem;
+}
+.banner_btn-group{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.btn{
+  padding: 0.5rem  1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: 0.4rem solid transparent;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+.green_btn{
+  background-color: var(--primary-color);
+}
+.purple_btn{
+  background-color: var(--button-secondary);
 }
