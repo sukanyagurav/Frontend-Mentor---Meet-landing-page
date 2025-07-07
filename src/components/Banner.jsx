@@ -1,6 +1,6 @@
 import React from 'react'
-import leftImg from '../assets/desktop/image-hero-left.png'
-import rightImg from '../assets/desktop/image-hero-right.png'
+import leftImg from '/assets/desktop/image-hero-left.png'
+import rightImg from '/assets/desktop/image-hero-right.png'
 const Banner = () => {
   return (
     <div className='banner'>

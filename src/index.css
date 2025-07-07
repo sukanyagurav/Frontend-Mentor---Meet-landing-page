@@ -49,22 +49,112 @@ header img {
 .banner__middle h1 {
   font-size: 2.5rem;
 }
-.banner_btn-group{
+.banner_btn-group {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
-.btn{
-  padding: 0.5rem  1.5rem;
+.btn {
+  padding: 0.5rem 1.5rem;
   border-radius: 2rem;
   cursor: pointer;
   border: 0.4rem solid transparent;
   transition: all 0.3s ease-in-out;
   color: white;
 }
-.green_btn{
+.green_btn {
   background-color: var(--primary-color);
 }
-.purple_btn{
+.purple_btn {
   background-color: var(--button-secondary);
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.6rem;
+  flex-wrap: wrap;
+}
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.padding-sm {
+  padding: 1rem;
+}
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+.margin-bottom-sm {
+  margin-bottom: 2rem;
+}
+.margin-bottom-lg {
+  margin-bottom: 6rem;
+}
+.feature {
+  margin-top: 16rem;
+}
+.feature_img {
+  max-width: 250px;
+  border-radius: 20px;
+}
+.feature h3 {
+  color: var(--primary-color);
+  font-weight: bolder;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+}
+.feature h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.paragraph {
+  max-width: 500px;
+  text-align: center;
+  width: 100%;
+  margin-inline: auto;
+}
+.footer {
+  padding: 2rem 1rem;
+  background-image: url('/assets/desktop/image-footer.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  color: white;
+  z-index: 2;
+}
+.footer h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.footer_content {
+  display: grid;
+  grid-template-columns: repeat(3, 290px);
+  gap: 3rem;
+  place-items: center;
+}
+
+.footer::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+  background-color: var(--button-primary-hover);
+  z-index: -1;
+}
+
+@media (max-width:900px) {
+  
 }
