@@ -19,8 +19,8 @@ const images = [
 ];
 const Feature_1 = () => {
   return (
-    <section className="padding-sm feature margin-bottom-lg">
-      <div className="flex-row margin-bottom-sm">
+    <section className="padding-sm number feature margin-bottom-lg">
+      <div className="margin-bottom-sm feature_imgs container">
         {images.map((image) => (
           <img
             key={image.id}
@@ -30,7 +30,7 @@ const Feature_1 = () => {
           />
         ))}
       </div>
-      <div className='container flex-col-center'>
+      <div className='container flex-col-center number'>
         <h3 className='uppercase'>Built for modern use</h3>
         <h2>Smarter meetings, all in one place</h2>
         <p className='paragraph'>

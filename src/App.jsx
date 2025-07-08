@@ -6,10 +6,12 @@ function App() {
   return (
     <>
       <header>
-        <img
-          src={logo}
-          alt="meet logo"
-        />
+        <a href="#" >
+          <img
+            src={logo}
+            alt="meet logo"
+          />
+        </a>
       </header>
       <Banner />
       <Feature_1 />

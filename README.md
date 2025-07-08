@@ -1,8 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Meet landing page
 
-Currently, two official plugins are available:
+## Welcome! 👋
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌐 **Links**
+- 🔗 [GitHub](https://github.com/sukanyagurav/Tech-book-club-landing-page)
+- 🚀 [Live URL](https://techbook-landing-page.netlify.app/)
+
+<div align="center">
+    <h2>⚡ Tech stack used</h2>
+</div>
+<div align="center">
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+</div>
+
+## 📜 Features
+I need to replicate the provided design for a landing page, making sure it looks as close to the original as possible.
+
+My Requirements:
+
+- Responsive Design: I must implement a layout that adapts to different screen sizes, providing an optimal user experience across various devices.
+- Interactive Elements: I need to include hover states for interactive elements, enhancing the overall user interaction.
+
+
+### 📔Meet landing page
+
+<img src="./public/assets/preview.jpg"/>
+
+## Author
+👩‍💻 Frontend Mentor - [@sukanyagurav](https://www.frontendmentor.io/profile/sukanyagurav) 
