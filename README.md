@@ -4,7 +4,7 @@
 ## Welcome! 👋
 
 ### 🌐 **Links**
-- 🔗 [GitHub](https://github.com/sukanyagurav/Tech-book-club-landing-page)
+- 🔗 [GitHub](https://github.com/sukanyagurav/Frontend-Mentor---Meet-landing-page)
 - 🚀 [Live URL](https://techbook-landing-page.netlify.app/)
 
 <div align="center">
