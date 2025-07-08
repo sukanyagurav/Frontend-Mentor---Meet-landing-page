@@ -5,7 +5,7 @@
 
 ### 🌐 **Links**
 - 🔗 [GitHub](https://github.com/sukanyagurav/Frontend-Mentor---Meet-landing-page)
-- 🚀 [Live URL](https://techbook-landing-page.netlify.app/)
+- 🚀 [Live URL](https://meet-landing-page-5867.netlify.app/)
 
 <div align="center">
     <h2>⚡ Tech stack used</h2>
